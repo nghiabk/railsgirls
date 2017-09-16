@@ -1,6 +1,10 @@
-<h1>Editing Comment</h1>
+<div class="container">
+    <div class="row col-sm-8 col-sm-offset-2">
+        <h1>Editing Comment</h1>
 
-<%= render 'form', comment: @comment %>
+        <%= render 'form', comment: @comment %>
 
-<%= link_to 'Show', @comment %> |
-<%= link_to 'Back', comments_path %>
+        <%= link_to 'Show', @comment, class:"text-show" %> |
+        <%= link_to 'Back', comments_path, class: "text-show" %>
+    </div>
+</div>

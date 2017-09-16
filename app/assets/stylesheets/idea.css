@@ -1,0 +1,95 @@
+.row-list-users {
+    margin-top: 20px;
+}
+
+.mai-flex {
+    display: flex;
+}
+
+.card {
+    box-shadow: 5px 5px 5px #888888;
+    transition: all .3s ease;
+    border-radius: 5px;
+}
+
+.list-custom {
+    padding: 0;
+}
+
+.text-name {
+    color: #16a085 !important;
+    text-align: center !important;
+}
+
+.text-name:hover {
+    background-color: #ffffff;
+    color: green !important;
+    text-decoration: none;
+}
+
+.new-user {
+    text-decoration: none !important;
+    color: #ffffff !important;
+}
+
+a.btn-nav-custom {
+    color: #ffffff !important;
+    font-size: 15px !important;
+    border-radius: 1rem !important;
+    margin-right: 10px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #16a085;
+    border-radius: 0.5rem;
+}
+
+#imaginary_container{
+    margin-top:0; /* Don't copy this */
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+.row.row-list {
+    margin-top: 30px;
+}
+
+.text-create {
+    text-align: center;
+}
+
+.account-wall {
+    margin-top: 10px;
+}
+
+.create-action {
+    margin-top: 15px;
+    color: #ffffff !important;
+}
+
+a.btn.btn-success.btn-custom, a.btn.btn-danger.btn-custom, a.btn.btn-primary.btn-custom {
+    color: #ffffff;
+}
+
+p.text-show-name {
+    margin-top: 10px;
+}
+
+.container.text-center.text-logo {
+    color:red;
+}
+
+a.navbar.navbar-brand.text-rails {
+    font-size: 30px;
+}

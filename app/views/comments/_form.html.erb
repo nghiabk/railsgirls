@@ -1,4 +1,6 @@
-<%= form_with(model: comment, local: true) do |form| %>
+<div class="account-wall"
+  <div class="form-signin">
+    <%= form_with(model: comment, local: true) do |form| %>
   <% if comment.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
@@ -13,16 +15,19 @@
 
   <div class="field">
     <%= form.label :user_name %>
-    <%= form.text_field :user_name, id: :comment_user_name %>
+    <%= form.text_field :user_name, id: :comment_user_name, class: "form-control" %>
   </div>
 
   <div class="field">
     <%= form.label :body %>
-    <%= form.text_area :body, id: :comment_body %>
+    <%= form.text_area :body, id: :comment_body, class: "form-control" %>
     <%= form.hidden_field :idea_id %>
   </div>
 
-  <div class="actions">
-    <%= form.submit %>
+  <div class="create-action">
+    <%= form.submit "Submit", class: "btn btn-primary center-block" %>
   </div>
 <% end %>
+
+  </div>
+</div>

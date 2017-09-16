@@ -1,4 +1,6 @@
-<%= form_with(model: idea, local: true) do |form| %>
+<div class="account-wall">
+  <div class="form-signin">
+    <%= form_with(model: idea, local: true) do |form| %>
   <% if idea.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(idea.errors.count, "error") %> prohibited this idea from being saved:</h2>
@@ -13,20 +15,22 @@
 
   <div class="field">
     <%= form.label :name %>
-    <%= form.text_field :name, id: :idea_name %>
+    <%= form.text_field :name, id: :idea_name, class: "form-control" %>
   </div>
 
   <div class="field">
-    <%= form.label :descriptiontion %>
-    <%= form.text_area :descriptiontion, id: :idea_descriptiontion %>
+    <%= form.label :description %>
+    <%= form.text_area :descriptiontion, id: :idea_descriptiontion, class: "form-control" %>
   </div>
 
   <div class="field">
     <%= form.label :picture %>
     <%= form.file_field :picture, id: :idea_picture %>
   </div>
-
-  <div class="actions">
-    <%= form.submit %>
+  
+  <div class="create-action">
+    <%= form.submit "Submit", class: "btn btn-primary center-block" %>
   </div>
 <% end %>
+  </div>
+</div>

@@ -1,0 +1,56 @@
+.text-comment {
+    color: red !important;
+}
+
+.text-comment:hover {
+    text-decoration: transparent;
+    color: red;
+    background-color: #ffffff;
+}
+
+.text-like {
+    color: blue
+}
+
+.text-show {
+    color: blue !important;
+}
+
+.text-show:hover {
+    color: blue;
+    background-color:#ffffff;
+    text-decoration: transparent;
+}
+
+.text-edit {
+    color: blue !important;
+}
+
+.text-edit:hover {
+    color: blue;
+    background-color: #ffffff;
+    text-decoration: transparent;
+}
+
+.panel.panel-login {
+    border-style: groove;
+}
+
+.vote {
+  display: inline-block;
+  overflow: hidden;
+  width: 40px;
+  height: 25px;
+  cursor: pointer;
+  background-position: 0 -25px;
+  color: blue;
+}
+
+.vote:hover {
+    color: red;
+}
+
+
+.vote.on {
+  background-position: 0 2px;
+}

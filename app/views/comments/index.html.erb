@@ -1,8 +1,10 @@
-<p id="notice"><%= notice %></p>
+<div class="container">
+  <div class="row col-sm-8 col-sm-offset-2">
+    <p id="notice"><%= notice %></p>
 
 <h1>Comments</h1>
 
-<table>
+<table class="table table-hover">
   <thead>
     <tr>
       <th>User name</th>
@@ -18,9 +20,11 @@
         <td><%= comment.user_name %></td>
         <td><%= comment.body %></td>
         <td><%= comment.idea_id %></td>
-        <td><%= link_to 'Show', comment %></td>
-        <td><%= link_to 'Edit', edit_comment_path(comment) %></td>
-        <td><%= link_to 'Destroy', comment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= comment.like_count%></td>
+        <td><%= comment.picture%></td>
+        <td><%= link_to 'Show', comment, class: "text-show" %></td>
+        <td><%= link_to 'Edit', edit_comment_path(comment), class: "text-edit" %></td>
+        <td><%= link_to 'Delete', comment, method: :delete, data: { confirm: 'Are you sure?' }, class: "text-comment" %></td>
       </tr>
     <% end %>
   </tbody>
@@ -28,4 +32,7 @@
 
 <br>
 
-<%= link_to 'New Comment', new_comment_path %>
+<%#= link_to 'New Comment', new_comment_path, class: "btn btn-primary create-action" %>
+
+  </div>
+</div>

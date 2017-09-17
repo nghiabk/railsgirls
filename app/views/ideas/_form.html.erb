@@ -28,8 +28,15 @@
     <%= form.file_field :picture, id: :idea_picture %>
   </div>
   
-  <div class="create-action">
-    <%= form.submit "Submit", class: "btn btn-primary center-block" %>
+  <div class="row">
+    <div class = "col-sm-2">
+       <%= link_to 'Back', ideas_path, class: "btn btn-warning" %>
+    </div>
+    
+    <div class="col-sm-1"></div>
+    <div class="col-sm-2">
+      <%= form.submit "Submit", class: "btn btn-primary center-block" %>
+    </div>
   </div>
 <% end %>
   </div>

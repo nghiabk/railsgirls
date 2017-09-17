@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dobqzu0v8
+  api_key: '417147738871878'
+  api_secret: 3UGV3D1VwA-yOMN8TNN4JCCTfmw
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dobqzu0v8
+  api_key: '417147738871878'
+  api_secret: 3UGV3D1VwA-yOMN8TNN4JCCTfmw
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dobqzu0v8
+  api_key: '417147738871878'
+  api_secret: 3UGV3D1VwA-yOMN8TNN4JCCTfmw
+  enhance_image_tag: true
+  static_image_support: false

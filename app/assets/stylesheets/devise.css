@@ -1,0 +1,42 @@
+.btn-lg {
+    margin-top: 15px;
+    width: 30%;
+}
+
+.profile-img
+ {
+  border-radius: 50%;
+  display: block;
+  height: 96px;
+  margin: 0 auto 10px;
+  width: 96px;
+}
+
+.form-signin
+ {
+  margin: 0 auto;
+  max-width: 330px;
+  padding: 15px;
+ }
+
+.form-signin .form-control
+ {
+  box-sizing: border-box;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.create-acount {
+  margin-left: 140px;
+}
+
+.forgot-password {
+  /*margin-right: 500px;*/
+}
+
+.forgot-password {
+ /*margin-left: 50px;*/
+}

@@ -33,10 +33,14 @@
 }
 
 a.btn-nav-custom {
-    color: #ffffff !important;
+    /*color: #ffffff !important;*/
     font-size: 15px !important;
     border-radius: 1rem !important;
     margin-right: 10px;
+}
+
+a.btn-nav-custom:hover {
+    color: blue !important;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
